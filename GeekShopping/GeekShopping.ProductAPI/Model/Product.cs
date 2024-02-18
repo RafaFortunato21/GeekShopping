@@ -28,7 +28,7 @@ namespace GeekShopping.ProductAPI.Model
 
 
         [Column("image_url")]
-        [StringLength(50)]
+        [StringLength(250)]
         public string ImageURL { get; set; }
 
 
